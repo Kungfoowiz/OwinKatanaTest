@@ -1,0 +1,5 @@
+1. Dlls not copied into bin folder (causes 404s). 
+
+2. App.config not copied into Web.config (causes http error 500).
+Could not load file or assembly 'Microsoft.Owin, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. 
+The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)
