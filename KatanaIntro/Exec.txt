@@ -1,4 +1,8 @@
-﻿cd "C:\Users\DaviesE\Documents\MyWork\Visual Studio 2015\Projects\KatanaIntro\KatanaIntro"
+﻿
+Check KatanaIntro properties, Output type = Class Library (dll for IIS Express) or Console App (standalone exe). 
+
+
+cd "C:\Users\DaviesE\Documents\MyWork\Visual Studio 2015\Projects\KatanaIntro\KatanaIntro"
 
 
 
@@ -32,31 +36,3 @@ http://localhost:12345/api/Greeting
 
 
 
-
-
-
-<!--<configuration>
-
-  <appSettings>
-
-    <add key="owin.appStartup" value="KatanaIntro.Startup"/>
-    
-  </appSettings>
-
-  <system.webServer>
-    <handlers>
-      <add name="Owin" verb="" path="*" type="Microsoft.Owin.Host.SystemWeb.OwinHttpHandler, Microsoft.Owin.Host.SystemWeb"/>
-    </handlers>
-  </system.webServer>
-
-
-  <runtime>
-    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
-      <dependentAssembly>
-        <assemblyIdentity name="Microsoft.Owin" publicKeyToken="31bf3856ad364e35" culture="neutral" />
-        <bindingRedirect oldVersion="0.0.0.0-2.0.2.0" newVersion="3.1.0" />
-      </dependentAssembly>
-    </assemblyBinding>
-  </runtime>
-  
-</configuration>-->
